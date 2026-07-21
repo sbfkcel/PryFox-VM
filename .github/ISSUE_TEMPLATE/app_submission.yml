@@ -1,0 +1,124 @@
+name: 📦 应用提交
+description: 提交一个已在 PryFox VM 上测试且运行良好的应用,经审核后收录进商店
+title: "[应用] "
+labels: ["app-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢推荐!请提交一个**你已在 PryFox VM 上测试过、运行良好**的应用。
+        以下信息与我们商店后台的应用表单一一对应,请尽量填写完整,便于审核与收录。
+
+  - type: input
+    id: name
+    attributes:
+      label: 应用名称
+      placeholder: "例如 哔哩哔哩"
+    validations:
+      required: true
+
+  - type: input
+    id: packageName
+    attributes:
+      label: 应用 ID(bundle id)
+      description: 用于已装应用的更新/重装识别。可在应用安装后用「应用列表」查看,或从 APK 元信息获取。
+      placeholder: "例如 tv.danmaku.bili"
+    validations:
+      required: true
+
+  - type: input
+    id: ver
+    attributes:
+      label: 版本
+      placeholder: "例如 8.30.0"
+    validations:
+      required: true
+
+  - type: input
+    id: size
+    attributes:
+      label: 大小(MB)
+      placeholder: "例如 86.5"
+    validations:
+      required: false
+
+  - type: textarea
+    id: des
+    attributes:
+      label: 应用描述
+      description: 一句话介绍这个应用,会显示在商店列表中。
+      placeholder: "例如 哔哩哔哩官方客户端……"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: 下载链接
+      description: APK 的下载地址(直链优先)。如提供官方/可信来源链接更佳。
+      placeholder: "https://example.com/app.apk"
+    validations:
+      required: true
+
+  - type: input
+    id: icon
+    attributes:
+      label: 应用图标
+      description: 图标图片地址,或在此 Issue 评论区拖入图片后把得到的链接贴上来。
+      placeholder: "https://…….png"
+    validations:
+      required: false
+
+  - type: input
+    id: tag
+    attributes:
+      label: 标签
+      description: 用逗号分隔多个标签,如 视频,社交。
+      placeholder: "视频,社交"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: 类型
+      description: app = 安装包;link = 网页链接(用浏览器打开);window = 多开网页窗口。
+      options:
+        - app(安装包)
+        - link(网页链接)
+        - window(网页窗口)
+    validations:
+      required: true
+
+  - type: input
+    id: width
+    attributes:
+      label: 窗口宽度(仅 window 类型填)
+      placeholder: "例如 1024"
+    validations:
+      required: false
+
+  - type: input
+    id: height
+    attributes:
+      label: 窗口高度(仅 window 类型填)
+      placeholder: "例如 768"
+    validations:
+      required: false
+
+  - type: textarea
+    id: test-info
+    attributes:
+      label: 测试情况
+      description: 简要说明你测试的环境与结果(运行是否流畅、有无闪退、已验证的功能等)。
+      placeholder: "在 PryFox VM 0.1.0 / macOS 上测试,登录、播放视频正常,未发现闪退。"
+    validations:
+      required: true
+
+  - type: input
+    id: tester-version
+    attributes:
+      label: 测试时使用的 PryFox VM 版本
+      placeholder: "例如 0.1.0"
+    validations:
+      required: true
