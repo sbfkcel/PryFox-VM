@@ -6,7 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        感谢推荐!请提交一个**你已在 PryFox VM 上测试过、运行良好**的应用。
+        感谢推荐!请提交一个**你已在 PryFox VM 上测试过、运行良好**的安装包(APK)。
+        本模板只接受安装包提交(网页链接/窗口类应用不在此提交)。
         以下信息与我们商店后台的应用表单一一对应,请尽量填写完整,便于审核与收录。
 
   - type: input
@@ -78,33 +79,14 @@ body:
     validations:
       required: false
 
-  - type: dropdown
-    id: type
+  - type: input
+    id: video
     attributes:
-      label: 类型
-      description: app = 安装包;link = 网页链接(用浏览器打开);window = 多开网页窗口。
-      options:
-        - app(安装包)
-        - link(网页链接)
-        - window(网页窗口)
+      label: 运行视频
+      description: 该应用在 PryFox VM 上运行的视频地址(B 站、YouTube 等可播放链接均可),用于展示运行效果。
+      placeholder: "https://www.bilibili.com/video/..."
     validations:
       required: true
-
-  - type: input
-    id: width
-    attributes:
-      label: 窗口宽度(仅 window 类型填)
-      placeholder: "例如 1024"
-    validations:
-      required: false
-
-  - type: input
-    id: height
-    attributes:
-      label: 窗口高度(仅 window 类型填)
-      placeholder: "例如 768"
-    validations:
-      required: false
 
   - type: textarea
     id: test-info
