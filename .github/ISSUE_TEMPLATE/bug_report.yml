@@ -1,0 +1,79 @@
+name: 🐛 Bug 反馈
+description: 报告一个在使用 PryFox VM 时遇到的问题
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈!请尽量填写完整,信息越详细越有助于复现和修复。
+
+  - type: input
+    id: version
+    attributes:
+      label: PryFox VM 版本
+      placeholder: "例如 0.1.0(见 关于/设置 页)"
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: 操作系统
+      placeholder: "例如 macOS 15.5 / Windows 11"
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: 设备型号
+      placeholder: "例如 MacBook Pro M1 / 联想拯救者"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 问题类别
+      options:
+        - 启动/关闭模拟器
+        - 应用安装/卸载
+        - 应用多开
+        - 图形/渲染
+        - 手柄/输入
+        - 录屏
+        - 商店
+        - 联网
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 问题描述
+      description: 发生了什么?你期望发生什么?
+      placeholder: "我在……时,期望……,但实际……"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      description: 一步步说明如何触发这个问题
+      placeholder: |
+        1. 打开 PryFox VM
+        2. 点击……
+        3. 出现……
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 日志 / 截图
+      description: 可选。如有报错弹窗、控制台输出或截图,请贴上。日志可在 设置 → 上传诊断日志 获取。
+    validations:
+      required: false
