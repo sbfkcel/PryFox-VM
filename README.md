@@ -35,12 +35,6 @@ PryFox VM doesn't look like an emulator. No crowded toolbars, no debug panels, n
 - Running several accounts side by side, each in its own window
 - Phone-only apps you'd rather not squint at on a phone
 
-**Get started**
-
-- macOS on Apple Silicon · version 0.3.0
-- Download and release notes: <https://vm.pryfox.com>
-- Windows and Linux are on the way.
-
 ---
 
 <a id="zh"></a>
@@ -67,12 +61,6 @@ PryFox VM 不太像模拟器。没有挤满按钮的工具栏，没有调试面�
 - 想在 Mac 上玩 Android 游戏，拿起手柄就能开局
 - 多开挂机，每个账号一个窗口互不打扰
 - 手机上才有的应用，不想再举着手机看
-
-**开始使用**
-
-- macOS（Apple 芯片）· 版本 0.3.0
-- 下载与更新说明：<https://vm.pryfox.com>
-- Windows 与 Linux 版本在路上了。
 
 ---
 
@@ -101,12 +89,6 @@ PryFox VM 不太像模擬器。沒有塞滿按鈕的工具列，沒有除錯面�
 - 多開掛機，每個帳號一個視窗互不干擾
 - 手機才有的應用程式，不想再舉著手機看
 
-**開始使用**
-
-- macOS（Apple 晶片）· 版本 0.3.0
-- 下載與更新說明：<https://vm.pryfox.com>
-- Windows 與 Linux 版本正在路上。
-
 ---
 
 <a id="jp"></a>
@@ -133,12 +115,6 @@ PryFox VM は、エミュレーターらしくありません。ボタンだら�
 - Mac で Android ゲームを楽しみたい人
 - 複数アカウントを同時に動かしたい人
 - スマホ専用アプリをパソコンで使いたい人
-
-**はじめかた**
-
-- macOS（Apple シリコン）· バージョン 0.3.0
-- ダウンロードと更新情報：<https://vm.pryfox.com>
-- Windows / Linux 版は準備中です。
 
 ---
 
@@ -167,12 +143,6 @@ PryFox VM은 에뮬레이터처럼 보이지 않습니다. 버튼이 가득한 �
 - 여러 계정을 동시에 돌리고 싶은 분
 - 스마트폰 전용 앱을 컴퓨터에서 쓰고 싶은 분
 
-**시작하기**
-
-- macOS(Apple 실리콘) · 버전 0.3.0
-- 다운로드 및 업데이트 안내: <https://vm.pryfox.com>
-- Windows와 Linux 버전도 준비 중입니다.
-
 ---
 
 <a id="ru"></a>
@@ -199,12 +169,6 @@ PryFox VM не похож на эмулятор. Ни забитых кнопк�
 - Тем, кто хочет играть в игры Android на Mac
 - Тем, кто ведёт несколько аккаунтов одновременно
 - Тем, кому нужны мобильные приложения на компьютере
-
-**Как начать**
-
-- macOS (Apple Silicon) · версия 0.3.0
-- Загрузка и список изменений: <https://vm.pryfox.com>
-- Версии для Windows и Linux в разработке.
 
 ---
 
@@ -233,12 +197,6 @@ PryFox VM दिखने में एमुलेटर जैसा नही
 - जो एक साथ कई अकाउंट चलाना चाहते हैं
 - जिन्हें सिर्फ़ मोबाइल पर मिलने वाले ऐप कंप्यूटर पर चाहिए
 
-**शुरू कैसे करें**
-
-- macOS (Apple Silicon) · वर्शन 0.3.0
-- डाउनलोड और अपडेट: <https://vm.pryfox.com>
-- Windows और Linux वर्शन भी आ रहे हैं।
-
 ---
 
 <a id="es"></a>
@@ -265,12 +223,6 @@ PryFox VM no parece un emulador. Sin barras llenas de botones, sin paneles de de
 - Para quien quiere jugar a juegos de Android en el Mac
 - Para quien lleva varias cuentas a la vez
 - Para quien necesita apps exclusivas de móvil en el ordenador
-
-**Cómo empezar**
-
-- macOS (Apple Silicon) · versión 0.3.0
-- Descarga y novedades: <https://vm.pryfox.com>
-- Las versiones para Windows y Linux están en camino.
 
 ---
 
@@ -299,12 +251,6 @@ PryFox VM ne ressemble pas à un émulateur. Pas de barres d'outils surchargées
 - Pour faire tourner plusieurs comptes en parallèle
 - Pour utiliser sur ordinateur des applis réservées au mobile
 
-**Pour commencer**
-
-- macOS (Apple Silicon) · version 0.3.0
-- Téléchargement et nouveautés : <https://vm.pryfox.com>
-- Les versions Windows et Linux arrivent.
-
 ---
 
 <a id="de"></a>
@@ -332,12 +278,6 @@ PryFox VM sieht nicht aus wie ein Emulator. Keine überfüllten Symbolleisten, k
 - Für mehrere Accounts nebeneinander
 - Für Handy-Apps, die es nur mobil gibt
 
-**Loslegen**
-
-- macOS (Apple Silicon) · Version 0.3.0
-- Download und Neuerungen: <https://vm.pryfox.com>
-- Windows und Linux sind in Arbeit.
-
 ---
 
 <a id="pt"></a>
@@ -364,13 +304,3 @@ O PryFox VM não parece um emulador. Sem barras cheias de botões, sem painéis 
 - Para quem quer jogar jogos Android no Mac
 - Para quem roda várias contas ao mesmo tempo
 - Para quem precisa de apps só de celular no computador
-
-**Como começar**
-
-- macOS (Apple Silicon) · versão 0.3.0
-- Download e novidades: <https://vm.pryfox.com>
-- As versões para Windows e Linux estão a caminho.
-
----
-
-<sub>PryFox VM · v0.3.0 · macOS (Apple Silicon) · <https://vm.pryfox.com></sub>
