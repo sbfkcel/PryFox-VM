@@ -8,6 +8,8 @@
 **Languages**
 [English](#en) · [简体中文](#zh) · [繁體中文](#tw) · [日本語](#jp) · [한국어](#kr) · [Русский](#ru) · [हिन्दी](#hi) · [Español](#es) · [Français](#fr) · [Deutsch](#de) · [Português](#pt)
 
+<img width="1440" height="1129" alt="PryFox VM" src="https://github.com/user-attachments/assets/da452663-9dc5-49a6-b29a-b4f2d3f167e7" />
+
 ---
 
 <a id="en"></a>
