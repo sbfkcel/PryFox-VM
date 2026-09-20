@@ -3,7 +3,7 @@
 > **一个 Mac 用户写给 Mac 用户的 Android 模拟器。**
 > *An Android emulator, built by a Mac user, for Mac users.*
 
-**macOS (Apple Silicon) · v0.3.0 · <https://vm.pryfox.com>**
+**macOS (Apple Silicon) · <https://vm.pryfox.com>**
 
 **Languages**
 [English](#en) · [简体中文](#zh) · [繁體中文](#tw) · [日本語](#jp) · [한국어](#kr) · [Русский](#ru) · [हिन्दी](#hi) · [Español](#es) · [Français](#fr) · [Deutsch](#de) · [Português](#pt)
