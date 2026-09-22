@@ -1,7 +1,7 @@
 # PryFox VM
 
-> **一个 Mac 用户写给 Mac 用户的 Android 模拟器。**
 > *An Android emulator, built by a Mac user, for Mac users.*
+> **一个 Mac 用户写给 Mac 用户的 Android 模拟器。**
 
 **macOS (Apple Silicon) · <https://vm.pryfox.com>**
 
